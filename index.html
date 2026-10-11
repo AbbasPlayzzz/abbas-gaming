@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abbas.io Gaming</title>
+<style>
+body{margin:0;background:#080817;color:white;font-family:Arial,sans-serif}
+header{text-align:center;padding:25px;background:linear-gradient(120deg,#351060,#101d46)}
+h1{color:#d0adff}
+main{max-width:900px;margin:auto;padding:20px}
+.feature,.card{background:#15142b;border:1px solid #7950ed;border-radius:16px;padding:20px;margin-bottom:16px}
+.feature{text-align:center;background:linear-gradient(120deg,#29114b,#10264c)}
+h2{color:#d0adff}
+.crown{font-size:40px}
+.games{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.art{text-align:center;font-size:55px;padding:20px;background:#222052;border-radius:10px}
+button{background:#7950ed;color:white;border:0;border-radius:9px;padding:12px;cursor:pointer}
+footer{text-align:center;padding:20px;color:#aaa}
+</style>
+</head>
+<body>
+<header><h1>⚡ ABBAS.IO</h1><p>Your next gaming adventure starts here!</p></header>
+<main>
+<section class="feature">
+<div class="crown">👑</div>
+<h2>FEATURED GAME</h2>
+<h3>Speed Rush — Abbas</h3>
+<p>Ready to race? Let the adventure begin!</p>
+<button onclick="document.getElementById('games').scrollIntoView()">Explore Games</button>
+</section>
+<h2>🎮 Choose Your Game</h2>
+<div class="games" id="games">
+<article class="card"><div class="art">🏎️</div><h3>Speed Rush</h3><p>Race fast and chase the finish line.</p><button onclick="alert('Game link coming soon!')">Play Game</button></article>
+<article class="card"><div class="art">🧱</div><h3>Blockcraft</h3><p>Build and explore your world.</p><button onclick="alert('Game link coming soon!')">Play Game</button></article>
+<article class="card"><div class="art">👻</div><h3>Mr. Meat</h3><p>Enter a spooky adventure.</p><button onclick="alert('Game link coming soon!')">Play Game</button></article>
+</div>
+</main>
+<footer>© 2026 Abbas.io Gaming 💜</footer>
+</body>
+</html>
